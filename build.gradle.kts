@@ -18,7 +18,7 @@ repositories {
 intellijPlatform {
   pluginConfiguration {
     id = "unofficial-ags-plugin"
-    name = "Unofficial AGS Plugin"
+    name = "Adventure Game Studio (Unofficial)"
     version = "0.1.0"
 
     ideaVersion {
