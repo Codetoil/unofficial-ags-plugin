@@ -2,8 +2,8 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
   id("java")
-  id("org.jetbrains.kotlin.jvm") version "1.9.25"
-  id("org.jetbrains.intellij") version "1.17.4"
+  id("org.jetbrains.kotlin.jvm") version "2.0.21"
+  id("org.jetbrains.intellij.platform") version "2.1.0"
 }
 
 group = "io.codetoil"
@@ -17,9 +17,9 @@ repositories {
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellijPlatform {
   pluginConfiguration {
-    id = "unofficial-swift-plugin"
-    name = "Unofficial Swift Plugin"
-    version = "0.1.1"
+    id = "unofficial-ags-plugin"
+    name = "Unofficial AGS Plugin"
+    version = "0.1.0"
 
     ideaVersion {
       sinceBuild = "243"
